@@ -164,7 +164,7 @@ section{
         transition: .2s;
     }
 
-    .icons{
+    .SNS{
         padding: 0 3%;
         transition: .2s;
     }
@@ -218,7 +218,7 @@ section{
         grid-template-columns: 1fr;
     }
 
-    .icons{
+    .SNS{
         display: none;
     }
 }
@@ -256,5 +256,18 @@ section{
         width: 100%;
         height: auto;
     }
-    
+}
+
+@media (min-aspect-ratio: 16/9){
+    #mv{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9){
+    #mv{
+        width: auto;
+        height: auto;
+    }
 }

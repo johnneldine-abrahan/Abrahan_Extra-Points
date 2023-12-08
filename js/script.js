@@ -2,7 +2,7 @@ let menu = document.querySelector('#menu-icon');
 let navlist = document.querySelector('.nav-list');
 
 menu.onclick = () =>{
-    menu.classList.toggle('la-bars');
+    menu.classList.toggle('las');
     navlist.classList.toggle('.open');
 };
 
@@ -15,3 +15,4 @@ const sr = ScrollReveal ({
 
 sr.reveal('.comeback', {delay:200, origin:'top'});
 sr.reveal('.artwork img', {delay:200, origin:'top'});
+sr.reveal('icons', {delay:200, origin:'left'});
